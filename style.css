@@ -1,0 +1,139 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 13, 2023, 6:41:34 PM
+    Author     : idens
+*/
+
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+    justify-content: center;
+    
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.separator {
+    border-bottom: 1px solid #000;
+    margin: 20px 0;
+}
+
+.part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.part label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.part input
+{
+    flex: 1;
+}
+.part select {
+    flex: 1;
+
+}
+.error{
+    color: red;
+    flex: 1;
+    text-align: center;
+}
+.errorContactTime{
+    color: red;
+    flex: 1;
+    text-align: left;
+}
+
+.contactMetod{
+    display: flex;
+    flex-direction: row;
+}
+
+.submitButton {
+    background-color: #337AB7;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+.submitButton:hover {
+    background-color: #99ccff;
+}
+
+.partTime{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+}
+.selectedTime{
+    display: flex;
+    flex-direction: row;
+}
+
+.phpContainer{
+    display: grid;
+    flex-direction: row;
+}
+
+.tableRate{
+    text-align: center;
+    
+}
+.tableHeader{
+   text-align: center; 
+}
+.errorTxt{
+    color: red;
+}
+
+.box {
+    margin: 10px;
+    width: Auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Change to 'column' */
+}
+
+.box-item {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+}
+.checkTerm{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.errorTerm{
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    text-align: left;
+    color: red;
+}
+.contactButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+}
+.next{
+    margin-left: 15px;
+}
+
